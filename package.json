@@ -7,42 +7,45 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "eslint src --fix && pnpm format",
+    "lint:fix": "eslint src --fix && yarn format",
     "lint:strict": "eslint --max-warnings=0 src",
     "typecheck": "tsc --noEmit --incremental false",
     "test:watch": "jest --watch",
     "test": "jest",
     "format": "prettier -w .",
-    "format:check": "prettier -c .",
-    "prepare": "husky install"
+    "format:check": "prettier -c ."
   },
   "dependencies": {
-    "next": "14.2.15",
+    "next": "15.0.1",
     "prettier": "^3.3.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sass-loader": "^16.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "@types/node": "^22.7.7",
-    "@types/react": "^18",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.13.0",
+    "@types/node": "^22.8.1",
+    "@types/react": "^18.3.12",
     "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "^14.2.13",
+    "eslint": "^9.13.0",
+    "eslint-config-next": "^15.0.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.11.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "postcss": "^8",
-    "sass": "^1.80.3",
+    "sass": "^1.80.4",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
-      "eslint . --fix",
+      "eslint src --fix",
       "prettier -w"
     ],
     "**/*.{json,css,scss,md,webmanifest}": [
