@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint", // ESLint for linting
+    "esbenp.prettier-vscode", // Prettier for consistent code formatting
+    "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+    "formulahendry.auto-rename-tag", // Auto Rename Tag for HTML/JSX
+    "dsznajder.es7-react-js-snippets", // React/Redux snippets
+    "ms-vscode.vscode-typescript-next", // TypeScript extensions
+    "orta.vscode-jest" // Jest support for tests
+  ]
+}
