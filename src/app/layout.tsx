@@ -43,7 +43,7 @@ export default function RootLayout({
       <meta name='apple-mobile-web-app-title' content='Urmauur' />
       <link rel='manifest' href='/favicons/site.webmanifest' />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased text-sm bg-black text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased text-sm bg-[#0B0D19] text-white`}
       >
         {children}
       </body>
