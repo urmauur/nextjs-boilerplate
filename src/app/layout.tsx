@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'NextJs Boilerplate',
+  title: 'Urmauur - NextJs Boilerplate',
   description:
     'A scalable, production-ready Next.js starter kit with best practices and modern tools.',
 };
@@ -27,6 +27,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
+      <link
+        rel='icon'
+        type='image/png'
+        href='/favicons/favicon-48x48.png'
+        sizes='48x48'
+      />
+      <link rel='icon' type='image/svg+xml' href='/favicons/favicon.svg' />
+      <link rel='shortcut icon' href='/favicons/favicon.ico' />
+      <link
+        rel='apple-touch-icon'
+        sizes='180x180'
+        href='/favicons/apple-touch-icon.png'
+      />
+      <meta name='apple-mobile-web-app-title' content='Urmauur' />
+      <link rel='manifest' href='/favicons/site.webmanifest' />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased text-sm bg-black text-white`}
       >
