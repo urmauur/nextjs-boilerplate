@@ -1,4 +1,4 @@
-# Next.js + Tailwind CSS + TypeScript Starter and Boilerplate
+# Next.js, Tailwind, TypeScript Starter and Boilerplate
 
 A fully-featured Next.js boilerplate combining TypeScript, Tailwind CSS, and a suite of development tools to streamline your project setup and improve code quality.
 
@@ -43,4 +43,4 @@ You can start the server using this command:
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/pages/index.tsx`.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/app/page.tsx`.
