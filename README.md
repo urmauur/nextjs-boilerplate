@@ -26,7 +26,7 @@ This starter includes:
 2. Using `create-next-app`
 
    ```bash
-   npx create next-app  -e https://github.com/urmauur/nextjs-boilerplate my-app
+   npx create-next-app  -e https://github.com/urmauur/nextjs-boilerplate my-app
    ```
 
 ### 2. Install dependencies
